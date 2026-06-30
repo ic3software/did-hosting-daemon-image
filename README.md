@@ -1,0 +1,1 @@
+# did-hosting-daemon-image
