@@ -11,7 +11,4 @@ RUN curl -fsSL "https://fpp.ic3.dev/did-hosting-daemon-k8s/${DID_HOSTING_DAEMON_
 
 WORKDIR /app/did-hosting-daemon
 
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod 0755 /entrypoint.sh
-
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["did-hosting-daemon"]
